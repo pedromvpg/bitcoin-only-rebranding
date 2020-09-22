@@ -2711,13 +2711,19 @@ input, select, textarea {
 		}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding-top: 0.75em;
+			padding-bottom: 0.75em;
+			padding-left: 0.3em;
+			padding-right: 0.3em;
 		}
 
 		table th {
 			font-size: 0.9em;
 			font-weight: 400;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding-top: 0.75em;
+			padding-bottom: 0.75em;
+			padding-left: 0.3em;
+			padding-right: 0.3em;
 			text-align: left;
 		}
 
@@ -3547,7 +3553,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			color: #F3DE8A;
 			font-family: 'Quicksand', sans-serif;
-			letter-spacing: 0.325rem;
+			letter-spacing: 0.1rem;
 			width: calc(100% + 0.325rem);
 			font-size: 0.875em;
 			line-height: 1.375;
@@ -3765,7 +3771,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				max-width: calc(100% - 2em);
+				max-width: calc(100%);
 			}
 
 		}
