@@ -2800,26 +2800,30 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		width: calc(100%);
-		margin: 0 0 0 0;
+		width: calc(50%);
+		margin-left: 25%;
+		margin-right: 25%;
 		padding: 0;
 		list-style: none;
 	}
 
 		.features li {
-			width: calc(100% /6 );
+			width: calc(100% /3 );
 			margin-top: 0%;
 		}
-
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
-				margin-top: 0;
-			}
 
 			.features li > :last-child {
 				margin-bottom: 0;
 			}
 
 		@media screen and (max-width: 980px) {
+
+			.features {
+				width: calc(100%);
+				/* margin: 0 0 0 0; */
+				margin-left: 0%;
+				margin-right: 0%;
+			}
 
 			.features li {
 				width: calc(100% / 3);
