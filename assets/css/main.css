@@ -2605,7 +2605,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		text-align: left;
+		text-align: right;
 		margin: 0 0 0 0;
 	}
 
@@ -3071,22 +3071,22 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition: opacity 0.5s ease;
+				-webkit-transition: opacity 0.5s ease;
+				-ms-transition: opacity 0.5s ease;
+				transition: opacity 0.5s ease;
+				-moz-transition-delay: 0.25s;
+				-webkit-transition-delay: 0.25s;
+				-ms-transition-delay: 0.25s;
+				transition-delay: 0.25s;
 				opacity: 1;
 			}
 
 			#header .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 0.5s ease, -moz-transform 0.25s ease;
+				-webkit-transition: opacity 0.5s ease, -webkit-transform 0.25s ease;
+				-ms-transition: opacity 0.5s ease, -ms-transform 0.25s ease;
+				transition: opacity 0.5s ease, transform 0.25s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3098,7 +3098,7 @@ input, select, textarea {
 				#header .logo img {
 					display: block;
 					margin: 0 auto;
-					width: 50px;
+					width: 30%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3121,6 +3121,12 @@ input, select, textarea {
 
 				#header.alt {
 					padding: 5em 3em 2em 3em ;
+				}
+				
+				#header .logo img {
+					display: block;
+					margin: 0 auto;
+					width: 40%;
 				}
 
 		}
@@ -3148,6 +3154,12 @@ input, select, textarea {
 						font-size: 2.5em;
 					}
 
+				#header .logo img {
+					display: block;
+					margin: 0 auto;
+					width: 50%;
+				}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3160,6 +3172,12 @@ input, select, textarea {
 					padding: 4em 1.5em 1em 1.5em ;
 				}
 
+				#header .logo img {
+					display: block;
+					margin: 0 auto;
+					width: 50%;
+				}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -3170,6 +3188,12 @@ input, select, textarea {
 
 				#header.alt {
 					padding: 3.5em 1em 0.5em 1em ;
+				}
+
+				#header .logo img {
+					display: block;
+					margin: 0 auto;
+					width: 50%;
 				}
 
 		}
@@ -3643,7 +3667,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 1em 1.5em 1em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
