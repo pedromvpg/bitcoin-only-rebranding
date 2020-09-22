@@ -3572,6 +3572,20 @@ input, select, textarea {
 				background-color: #323448;
 			}
 
+			#main table tbody tr.recommended {
+				font-weight: bold;
+				font-family: 'Quicksand', sans-serif;
+				background-color: #c570070e;
+			}		
+			
+			#main table tbody tr.break {
+				background-color: #191a24;
+				text-align: center;	
+				border-top-color: #f7931a;
+				text-align: left;
+					
+			}		
+
 		#main table th {
 			text-align: left;
 			text-transform: uppercase;
