@@ -2721,7 +2721,7 @@ input, select, textarea {
 		table td {
 			padding-top: 0.75em;
 			padding-bottom: 0.75em;
-			/* padding-left: 0.3em; */
+			padding-left: 0.3em;
 			padding-right: 0.3em;
 		}
 
@@ -2730,7 +2730,7 @@ input, select, textarea {
 			font-weight: 400;
 			padding-top: 0.75em;
 			padding-bottom: 0.75em;
-			/* padding-left: 0.3em; */
+			padding-left: 0.3em;
 			padding-right: 0.3em;
 			text-align: left;
 		}
@@ -2814,10 +2814,13 @@ input, select, textarea {
 		padding: 0;
 		list-style: none;
 	}
+		.features h3 {
+			margin: 0 0 0 0;
+		}
 
 		.features li {
 			width: calc(100% /3 );
-			margin-top: 0%;
+			margin-top: 5%;
 		}
 
 			.features li > :last-child {
@@ -3368,7 +3371,6 @@ input, select, textarea {
 			text-align: left;
 			text-transform: uppercase;
 			color: #f2ad4f;
-			/* font-family: 'Quicksand', sans-serif; */
 			letter-spacing: 0.05rem;
 			width: calc(100% + 0.325rem);
 			line-height: 1.375;
@@ -3380,7 +3382,7 @@ input, select, textarea {
 			text-align: center;
 			text-transform: uppercase;
 			color: #F3DE8A;
-			font-family: 'Quicksand', sans-serif;
+			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 			letter-spacing: 0.05rem;
 			font-weight: bold;
 			font-size: 60%;
@@ -3582,12 +3584,12 @@ input, select, textarea {
 		}
 
 			#main table tbody tr:nth-child(2n + 1) {
-				background-color: #323448;
+				background-color: #1e2331;
 			}
 
 			#main table tbody tr.recommended {
 				font-weight: bold;
-				font-family: 'Quicksand', sans-serif;
+				font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 				background-color: #c570070e;
 			}		
 			
@@ -3602,8 +3604,8 @@ input, select, textarea {
 		#main table th {
 			text-align: left;
 			text-transform: uppercase;
-			color: #F3DE8A;
-			font-family: 'Quicksand', sans-serif;
+			color: #535351;
+			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 			letter-spacing: 0.1rem;
 			width: calc(100% + 0.325rem);
 			font-size: 0.875em;
@@ -3752,7 +3754,7 @@ input, select, textarea {
 			margin: 2.5em 0 2em 0;
 			text-align: center;
 			color: #F3DE8A;
-			font-family: 'Quicksand', sans-serif;
+			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 0.8em;
 			line-height: 1.375;
 			font-weight: 700;
