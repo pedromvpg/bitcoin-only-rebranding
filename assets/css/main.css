@@ -3813,6 +3813,79 @@ input, select, textarea {
 			}
 
 		}
+		
+		#footer input[type="submit"],
+		#footer input[type="reset"],
+		#footer input[type="button"],
+		#footer button,
+		#footer .button {
+				background-color: #f9af5a;
+				color: #191a24 !important;
+				box-shadow: none;
+				font-weight: 500;
+		}
+
+			#footer input[type="submit"]:hover,
+			#footer input[type="reset"]:hover,
+			#footer input[type="button"]:hover,
+			#footer button:hover,
+			#footer .button:hover {
+				background-color: #272838;
+				color: #f9af5a !important;
+			}
+
+			#footer input[type="submit"]:active,
+			#footer input[type="reset"]:active,
+			#footer input[type="button"]:active,
+			#footer button:active,
+			#footer .button:active {
+				background-color: rgba(222, 222, 222, 0.5);
+			}
+
+			#footer input[type="submit"].icon:before,
+			#footer input[type="reset"].icon:before,
+			#footer input[type="button"].icon:before,
+			#footer button.icon:before,
+			#footer .button.icon:before {
+				color: rgba(99, 99, 99, 0.25);
+			}
+
+			#footer input[type="submit"].primary,
+			#footer input[type="reset"].primary,
+			#footer input[type="button"].primary,
+			#footer button.primary,
+			#footer .button.primary {
+				background-color: #f9af5a;
+				color: #191a24 !important;
+				box-shadow: none;
+				font-weight: 500;
+			}
+
+				#footer input[type="submit"].primary:hover,
+				#footer input[type="reset"].primary:hover,
+				#footer input[type="button"].primary:hover,
+				#footer button.primary:hover,
+				#footer .button.primary:hover {
+					background-color: #272838;
+					color: #f9af5a !important;
+				}
+
+				#footer input[type="submit"].primary:active,
+				#footer input[type="reset"].primary:active,
+				#footer input[type="button"].primary:active,
+				#footer button.primary:active,
+				#footer .button.primary:active {
+					background-color: #272838;
+				}
+
+				#footer input[type="submit"].primary.icon:before,
+				#footer input[type="reset"].primary.icon:before,
+				#footer input[type="button"].primary.icon:before,
+				#footer button.primary.icon:before,
+				#footer .button.primary.icon:before {
+					color: #ffffff !important;
+				}
+
 
 /* Wrapper */
 
