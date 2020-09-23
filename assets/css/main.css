@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url(fonts/inter.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 /*
@@ -111,7 +112,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -148,6 +149,8 @@ input, select, textarea {
 		transition: color 0.1s ease, border-bottom 0.1s ease;
 		text-decoration: underline;
 		color: inherit;
+		text-decoration: none;
+		border-bottom: 1px solid #E9F1F722;
 	}
 
 		a:hover {
@@ -1828,7 +1831,8 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 300;
+		font-weight: 500;
+		letter-spacing: -0.03em;
 		height: 2.75em;
 		line-height: 2.75em;
 		min-width: 9.25em;
@@ -1908,9 +1912,9 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff !important;
+		background-color: #ffa62d;
+		/* box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35); */
+		color: #191a25 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2625,6 +2629,8 @@ input, select, textarea {
 
 	header.major {
 		margin-bottom: 2em;
+		text-align: center;
+		width: 100%;
 	}
 
 		header.major h2 {
@@ -2632,8 +2638,8 @@ input, select, textarea {
 		}
 
 			header.major h2:after {
-				display: block;
-				content: '';
+				/* display: block; */
+				/* content: ''; */
 				width: 8.25em;
 				height: 2px;
 				margin: 0.7em 0 1em 0;
@@ -2670,7 +2676,9 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				font-size: 1.5em;
+				font-size: 2.5em;
+				text-align: center;
+				/* font-weight: 400; */
 			}
 
 			header.major p {
@@ -2713,7 +2721,7 @@ input, select, textarea {
 		table td {
 			padding-top: 0.75em;
 			padding-bottom: 0.75em;
-			padding-left: 0.3em;
+			/* padding-left: 0.3em; */
 			padding-right: 0.3em;
 		}
 
@@ -2722,7 +2730,7 @@ input, select, textarea {
 			font-weight: 400;
 			padding-top: 0.75em;
 			padding-bottom: 0.75em;
-			padding-left: 0.3em;
+			/* padding-left: 0.3em; */
 			padding-right: 0.3em;
 			text-align: left;
 		}
@@ -2766,7 +2774,7 @@ input, select, textarea {
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(255, 255, 255, 0.075);
+			/* background-color: rgba(255, 255, 255, 0.075); */
 		}
 
 	table th {
@@ -3359,12 +3367,13 @@ input, select, textarea {
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
 			text-align: left;
 			text-transform: uppercase;
-			color: #F3DE8A;
-			font-family: 'Quicksand', sans-serif;
-			letter-spacing: 0.325rem;
+			color: #f2ad4f;
+			/* font-family: 'Quicksand', sans-serif; */
+			letter-spacing: 0.05rem;
 			width: calc(100% + 0.325rem);
 			line-height: 1.375;
-			font-weight: 700;
+			font-weight: 500;
+			text-align: center;
 		}
 
 		#main h3 {
@@ -3372,7 +3381,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			color: #F3DE8A;
 			font-family: 'Quicksand', sans-serif;
-			letter-spacing: 0.05rem;			
+			letter-spacing: 0.05rem;
 			font-weight: bold;
 			font-size: 60%;
 		}
