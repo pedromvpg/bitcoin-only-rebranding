@@ -3572,43 +3572,43 @@ input, select, textarea {
 		#main dl dt {
 			color: #636363;
 		}
-		
+
 		#main header.major h2:after {
 			background-color: #f7931a;
 		}
 
 		#main table tbody tr {
-			border-color: #4E5455;
+			border-color: #2a2b3c;
 		}
 
 			#main table tbody tr:nth-child(2n + 1) {
-				background-color: #323448;
+				/* background-color: #323448; */
 			}
 
 			#main table tbody tr.recommended {
 				font-weight: bold;
 				font-family: 'Quicksand', sans-serif;
 				background-color: #c570070e;
-			}		
-			
+			}
+
 			#main table tbody tr.break {
 				background-color: #191a24;
-				text-align: center;	
+				text-align: center;
 				border-top-color: #f7931a;
 				text-align: left;
-					
-			}		
+
+			}
 
 		#main table th {
 			text-align: left;
 			text-transform: uppercase;
-			color: #F3DE8A;
+			color: #535573;
 			font-family: 'Quicksand', sans-serif;
 			letter-spacing: 0.1rem;
 			width: calc(100% + 0.325rem);
 			font-size: 0.875em;
 			line-height: 1.375;
-			font-weight: 700;
+			font-weight: 500;
 		}
 
 		#main table thead {
