@@ -2814,10 +2814,13 @@ input, select, textarea {
 		padding: 0;
 		list-style: none;
 	}
+		.features h3 {
+			margin: 0 0 0 0;
+		}
 
 		.features li {
 			width: calc(100% /3 );
-			margin-top: 0%;
+			margin-top: 5%;
 		}
 
 			.features li > :last-child {
@@ -2840,13 +2843,13 @@ input, select, textarea {
 				/* .features li:nth-child(3) {
 					margin-top: 3em;
 				} */
-			
+
 
 			}
 
 		}
 
-	
+
 
 /* Statistics */
 
@@ -3134,7 +3137,7 @@ input, select, textarea {
 				#header.alt {
 					padding: 5em 3em 2em 3em ;
 				}
-				
+
 				#header .logo img {
 					display: block;
 					margin: 0 auto;
@@ -3368,7 +3371,6 @@ input, select, textarea {
 			text-align: left;
 			text-transform: uppercase;
 			color: #f2ad4f;
-			/* font-family: 'Quicksand', sans-serif; */
 			letter-spacing: 0.05rem;
 			width: calc(100% + 0.325rem);
 			line-height: 1.375;
@@ -3380,7 +3382,7 @@ input, select, textarea {
 			text-align: center;
 			text-transform: uppercase;
 			color: #F3DE8A;
-			font-family: 'Quicksand', sans-serif;
+			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 			letter-spacing: 0.05rem;
 			font-weight: bold;
 			font-size: 60%;
@@ -3454,6 +3456,7 @@ input, select, textarea {
 				#main button.primary:hover,
 				#main .button.primary:hover {
 					background-color: #272838;
+					color: #f9af5a !important;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3582,12 +3585,16 @@ input, select, textarea {
 		}
 
 			#main table tbody tr:nth-child(2n + 1) {
+<<<<<<< HEAD
 				/* background-color: #323448; */
+=======
+				background-color: #1e2331;
+>>>>>>> fe6c72bbe75bf43b272f9867517b1dfea304246f
 			}
 
 			#main table tbody tr.recommended {
 				font-weight: bold;
-				font-family: 'Quicksand', sans-serif;
+				font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 				background-color: #c570070e;
 			}
 
@@ -3602,8 +3609,13 @@ input, select, textarea {
 		#main table th {
 			text-align: left;
 			text-transform: uppercase;
+<<<<<<< HEAD
 			color: #535573;
 			font-family: 'Quicksand', sans-serif;
+=======
+			color: #535351;
+			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
+>>>>>>> fe6c72bbe75bf43b272f9867517b1dfea304246f
 			letter-spacing: 0.1rem;
 			width: calc(100% + 0.325rem);
 			font-size: 0.875em;
@@ -3752,7 +3764,7 @@ input, select, textarea {
 			margin: 2.5em 0 2em 0;
 			text-align: center;
 			color: #F3DE8A;
-			font-family: 'Quicksand', sans-serif;
+			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 0.8em;
 			line-height: 1.375;
 			font-weight: 700;
@@ -3810,6 +3822,79 @@ input, select, textarea {
 			}
 
 		}
+
+		#footer input[type="submit"],
+		#footer input[type="reset"],
+		#footer input[type="button"],
+		#footer button,
+		#footer .button {
+				background-color: #f9af5a;
+				color: #191a24 !important;
+				box-shadow: none;
+				font-weight: 500;
+		}
+
+			#footer input[type="submit"]:hover,
+			#footer input[type="reset"]:hover,
+			#footer input[type="button"]:hover,
+			#footer button:hover,
+			#footer .button:hover {
+				background-color: #272838;
+				color: #f9af5a !important;
+			}
+
+			#footer input[type="submit"]:active,
+			#footer input[type="reset"]:active,
+			#footer input[type="button"]:active,
+			#footer button:active,
+			#footer .button:active {
+				background-color: rgba(222, 222, 222, 0.5);
+			}
+
+			#footer input[type="submit"].icon:before,
+			#footer input[type="reset"].icon:before,
+			#footer input[type="button"].icon:before,
+			#footer button.icon:before,
+			#footer .button.icon:before {
+				color: rgba(99, 99, 99, 0.25);
+			}
+
+			#footer input[type="submit"].primary,
+			#footer input[type="reset"].primary,
+			#footer input[type="button"].primary,
+			#footer button.primary,
+			#footer .button.primary {
+				background-color: #f9af5a;
+				color: #191a24 !important;
+				box-shadow: none;
+				font-weight: 500;
+			}
+
+				#footer input[type="submit"].primary:hover,
+				#footer input[type="reset"].primary:hover,
+				#footer input[type="button"].primary:hover,
+				#footer button.primary:hover,
+				#footer .button.primary:hover {
+					background-color: #272838;
+					color: #f9af5a !important;
+				}
+
+				#footer input[type="submit"].primary:active,
+				#footer input[type="reset"].primary:active,
+				#footer input[type="button"].primary:active,
+				#footer button.primary:active,
+				#footer .button.primary:active {
+					background-color: #272838;
+				}
+
+				#footer input[type="submit"].primary.icon:before,
+				#footer input[type="reset"].primary.icon:before,
+				#footer input[type="button"].primary.icon:before,
+				#footer button.primary.icon:before,
+				#footer .button.primary.icon:before {
+					color: #ffffff !important;
+				}
+
 
 /* Wrapper */
 
