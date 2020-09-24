@@ -194,12 +194,13 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.2;
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.2em;
+		margin-top: 3em;
 	}
 
 	h3 {
@@ -3378,6 +3379,10 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		#main h1 {
+			font-weight: 400;
+		}
+
 		#main h3 {
 			text-align: center;
 			text-transform: uppercase;
@@ -3403,6 +3408,15 @@ input, select, textarea {
 
 		#main .box {
 			border-color: #dddddd;
+		}
+
+		#main .fineprint {
+			text-align: center;
+		}
+
+		#main .fineprint i {
+				color: #81849f;
+				font-size: 80%;
 		}
 
 		#main input[type="submit"],
@@ -3747,18 +3761,17 @@ input, select, textarea {
 	}
 
 		#footer > * {
-			width: calc(50% - 2em);
-			margin-left: 2em;
 		}
 
 		#footer .copyright {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			text-align: center;
-			color: #F3DE8A;
+			color: #4d4f66;
 			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 0.8em;
 			line-height: 1.375;
+			font-weight: 300;
 			font-weight: 700;
 		}
 
