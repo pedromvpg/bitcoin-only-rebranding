@@ -3585,11 +3585,7 @@ input, select, textarea {
 		}
 
 			#main table tbody tr:nth-child(2n + 1) {
-<<<<<<< HEAD
-				/* background-color: #323448; */
-=======
-				background-color: #1e2331;
->>>>>>> fe6c72bbe75bf43b272f9867517b1dfea304246f
+				/* background-color: #1e2331; */
 			}
 
 			#main table tbody tr.recommended {
@@ -3609,18 +3605,14 @@ input, select, textarea {
 		#main table th {
 			text-align: left;
 			text-transform: uppercase;
-<<<<<<< HEAD
-			color: #535573;
-			font-family: 'Quicksand', sans-serif;
-=======
 			color: #535351;
 			font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
->>>>>>> fe6c72bbe75bf43b272f9867517b1dfea304246f
 			letter-spacing: 0.1rem;
 			width: calc(100% + 0.325rem);
 			font-size: 0.875em;
-			line-height: 1.375;
+			line-height: aquamarine;
 			font-weight: 500;
+			color: #57596f;
 		}
 
 		#main table thead {
